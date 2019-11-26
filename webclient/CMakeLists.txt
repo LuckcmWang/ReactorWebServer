@@ -4,7 +4,7 @@ project(reactorwebserver)
 
 aux_source_directory(. SRC_LIST)
 
-add_executable(server ${SRC_LIST})
+add_executable(client ${SRC_LIST})
 
-target_link_libraries (server pthread)
+target_link_libraries (client pthread)
 
